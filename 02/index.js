@@ -19,3 +19,23 @@ for(let i = 0; i < 8 ; i++) {
     li.textContent = dataTypes[i]
     ol.appendChild(li)
 }
+
+
+
+
+// Arithmetic Operators
+
+const h2 = document.createElement("h1")
+h2.textContent = "Arithmatic Operators"
+body.appendChild(h2)
+
+const ol1 = document.createElement("ol")
+body.appendChild(ol1)
+
+const operators = ["+ :  addition", "- :   Substraction", "* :  multiplication", "/ :  Division", "% : Remainder", "** : Power"]
+
+for(let i = 0; i < operators.length ; i++) {
+    const li = document.createElement("li")
+    li.textContent = operators[i]
+    ol1.appendChild(li)
+}
